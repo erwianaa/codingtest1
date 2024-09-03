@@ -11,6 +11,10 @@ var soal4 = []
 
 
 function jawabsoal(soal) {
+   if (soal.length == 0) {
+    return soal
+   }
+
     let hasil = 0;
     for (let i=0; i < soal.length; i++) {
         hasil = hasil + soal[i];
