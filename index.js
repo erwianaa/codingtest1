@@ -11,7 +11,14 @@ var soal4 = []
 
 
 function jawabsoal(soal) {
+    let hasil = 0;
     for (let i = 0; i < soal.length; i++) {
-
+        soal[i]++
     }
+    return hasil;
 }
+
+console.log(soal1, jawabsoal(soal1));
+console.log(soal2, jawabsoal(soal2));
+console.log(soal3, jawabsoal(soal3));
+console.log(soal4, jawabsoal(soal4));
